@@ -2,7 +2,9 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
-import logo from "../img/blue.png"; // Adjust path as needed
+import logo from "../img/blue.png";
+import menu from "../img/menu.png"
+
 
 
 
@@ -29,21 +31,21 @@ function NavBar() {
                         onClick={() => setMobileMenuOpen(true)}
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
                     >
-                        <p>button</p>
+                        <img src={menu} alt="menu tab" className="w-10 h-10" />
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-20">
 
                     <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">Home</Link>
                     <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
-                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">Service</Link>
+                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Service">Service</Link>
                     <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link>
 
 
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#" className="text-sm/6 font-semibold text-gray-900">
-                        Log in <span aria-hidden="true">&rarr;</span>
+                        contact <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
 
@@ -72,7 +74,7 @@ function NavBar() {
 
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">Home</Link>
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
-                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">Service</Link>
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Service">Service</Link>
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link>
 
                             </div>
@@ -81,7 +83,7 @@ function NavBar() {
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                                 >
-                                    Log in
+                                    Contact
                                 </a>
                             </div>
                         </div>

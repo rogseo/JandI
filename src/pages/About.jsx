@@ -1,9 +1,10 @@
 // src/pages/About.jsx
 import React from 'react';
+import pic from "../img/1.png"
 
 function About() {
     return (
-        <div className="relative isolate px-6 pt-14 lg:px-8 ">
+        <div className="relative isolate px-50 pt-14 lg:px-50 ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -33,6 +34,7 @@ function About() {
                     <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
                         for Realizing Customer Value
                     </h1>
+    
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
                         Despite our relatively short history, J&I Advanced Construction comprises veterans with over 10 years of experience in semiconductor construction. Notably, our team has nearly a decade of experience specifically in constructing semiconductor plants in the United States, making us experts in this field. Leveraging this extensive experience, we deeply understand the critical importance of the initial stages of construction.
 
