@@ -28,16 +28,16 @@ function Home() {
 
                 <div className="relative h-full text-end rounded-lg ">
                     <img src={pic} alt="Company Logo" className="w-full h-full rounded-lg" />
-                    <div className="absolute top-40 right-5 w-full h-full text-balance text-right rounded-lg">
+                    {/* <div className="absolute top-40 sm:top-10 right-5 w-full h-full text-balance text-right rounded-lg">
                         <h2 className="text-white text-2xl lg:text-5xl font-bold">J&I Advanced Construction</h2>
 
-                    </div>
+                    </div> */}
                 </div>
                 <div>
-                    <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 pt-10 sm:text-5xl">
+                    <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 pt-10 lg:text-5xl">
                         We Deliver Preconstruction Services
                     </h1>
-                    <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+                    <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 lg:text-5xl">
                         for Realizing Customer Value
                     </h1>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">

@@ -25,39 +25,39 @@ function About() {
 
                 <div className="mx-auto max-w-2xl sm:pt-48 lg:pt-56 ">
                     <div className="text-center">
-                        <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+                        <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 lg:text-5xl">
                             Our Unique Advantage
                         </h1>
                     </div>
                 </div>
                 <article className='flex flex-col pt-10'>
-                    <div className='flex flex-row py-10'>
-                        <div className='basis-1/2'>
+                    <div className='flex lg:flex-row sm:flex-col  py-10'>
+                        <div className='lg:basis-1/2 '>
                             <img src={pic2} alt="advantage 1" className='basis-1/2'></img>
                         </div>
 
-                        <div className='basis-1/2'>
+                        <div className='lg:basis-1/2'>
                             <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Efficiency and Expertise</h1>
                             <p className='pt-2'>More efficient and skilled than typical U.S.-based GCs, CMs in semiconductor construction, leverage specialized experience to deliver optimized results.</p>
 
                         </div>
                     </div>
-                    <div className='flex flex-row py-10'>
-                        <div className='basis-1/2'>
+                    <div className='flex lg:flex-row sm:flex-col py-10'>
+                        <div className='lg:basis-1/2'>
                             <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Agility and Speed</h1>
                             <p className='pt-2'>A small team structure enables rapid decision-making and adaptability, allowing us to respond to challenges and client needs faster than larger firms.</p>
 
                         </div>
-                        <div className='basis-1/2'>
+                        <div className='lg:basis-1/2'>
                             <img src={pic1} alt="advantage 2" className='basis-1/2'></img>
                         </div>
                     </div>
-                    <div className='flex flex-row py-10'>
-                        <div className='basis-1/2'>
+                    <div className='flex lg:flex-row sm:flex-col py-10'>
+                        <div className='lg:basis-1/2'>
                             <img src={pic3} alt="advantage 3" className='basis-1/2'></img>
                         </div>
 
-                        <div className='basis-1/2'>
+                        <div className='lg:basis-1/2'>
                             <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Global Expertise</h1>
                             <p className='pt-2'>Combining in-depth South Korean and U.S. semiconductor construction knowledge, we offer a unique perspective that maximizes project outcomes for Korean clients in the U.S.</p>
 
