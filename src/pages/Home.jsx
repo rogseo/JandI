@@ -1,5 +1,7 @@
 // src/pages/Home.jsx
 import pic from "../img/1.png"
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <div className="relative isolate px-6 pt-14 lg:px-8  ">
@@ -48,17 +50,15 @@ function Home() {
                     </p>
                 </div>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                  
-                    <a
-                        href="/Contact"
-                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    >
-                        Contact Us
-                    </a>
-                        
-                    <a href="/About" className="text-sm/6 font-semibold text-gray-900">
+                    <Link to="/Contact" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+    >
+                        <p>Contact Us</p>
+                    </Link>
+    
+
+                    <Link to="/About" className="text-sm/6 font-semibold text-gray-900">
                         Learn more <span aria-hidden="true">→</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
 
