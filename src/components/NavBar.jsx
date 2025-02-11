@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
+import logo from "../img/blue.png"; // Adjust path as needed
 
 
 
@@ -12,12 +13,12 @@ function NavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="absolute inset-x-0 top-0 z-50 bg-blue">
             <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <p>J&I pic</p>
+                        <img src={logo} alt="Company Logo" className="w-60 h-15" />
                     </Link>
                 </div>
 
@@ -31,13 +32,12 @@ function NavBar() {
                         <p>button</p>
                     </button>
                 </div>
-                <div className="hidden lg:flex lg:gap-x-12">
-                    <ul>
-                        <Link className="text-sm/6 font-semibold text-gray-900" to="/">Home</Link>
-                        <Link className="text-sm/6 font-semibold text-gray-900" to="/About">About</Link>
-                        <Link className="text-sm/6 font-semibold text-gray-900" to="/Contact">Contact</Link>
+                <div className="hidden lg:flex lg:gap-x-20">
 
-                    </ul>
+                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">Home</Link>
+                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
+                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">Service</Link>
+                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link>
 
 
                 </div>
@@ -69,12 +69,11 @@ function NavBar() {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
-                                <ul>
-                                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">Home</Link>
-                                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
-                                    <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link>
 
-                                </ul>
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">Home</Link>
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">Service</Link>
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link>
 
                             </div>
                             <div className="py-6">
