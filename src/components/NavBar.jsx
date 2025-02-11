@@ -77,6 +77,7 @@ function NavBar() {
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/">
                                     <button
                                         type="button"
+                                        className="bg-transparent"
                                         onClick={() => setMobileMenuOpen(false)}
                                     >
                                         <p>Home</p>
@@ -85,6 +86,7 @@ function NavBar() {
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">
                                     <button
                                         type="button"
+                                        className="bg-transparent"
                                         onClick={() => setMobileMenuOpen(false)}
                                     >
                                         <p>About</p>
@@ -93,27 +95,24 @@ function NavBar() {
                                 <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Service">
                                     <button
                                         type="button"
+                                        className="bg-transparent"
                                         onClick={() => setMobileMenuOpen(false)}
                                     >
                                         <p>Service</p>
                                     </button>
                                 </Link>
-                                <button>
-                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/About">About</Link>
-
-                                </button>
+                  
                                 
-                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Service">Service</Link>
-                                {/* <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">Contact</Link> */}
 
                             </div>
                             <div className="py-6">
-                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Service">
+                                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" to="/Contact">
                                     <button
                                         type="button"
+                                        className="bg-transparent"
                                         onClick={() => setMobileMenuOpen(false)}
                                     >
-                                        <p>Service</p>
+                                        <p>Contact</p>
                                     </button>
                                 </Link>
                             </div>
