@@ -10,7 +10,7 @@ export default function Contact() {
 
 
   return (
-    <div className="isolate bg-white px-6 py-5 sm:py-5 lg:px-8">
+    <div className="isolate bg-white px-6 pt-5 sm:py-10 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -23,7 +23,7 @@ export default function Contact() {
           className="relative left-1/2 -z-10 aspect-1155/678 w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
         />
       </div>
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-2xl text-center ">
         <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Contact us</h2>
         <p className="mt-2 text-lg/8 text-gray-600">J&I</p>
       </div>
