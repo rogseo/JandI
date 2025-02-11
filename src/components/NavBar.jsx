@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
-import logo from "../img/blue.png";
+import logo from "../img/Blue.png";
 import menu from "../img/menu.png"
 
 
