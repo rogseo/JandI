@@ -19,27 +19,26 @@ function Service() {
             {/* Our Unique Advantage */}
             <div>
 
-                <div className="mx-auto max-w-2xl sm:pt-48 lg:pt-56 ">
+                <div className="mx-auto max-w-2xl pt-50 lg:pt-56 ">
                     <div className="text-center">
-                        <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 lg:text-5xl">
+                        <h1 className="text-[#153361] font-semibold text-balance sm:tracking-tight lg:tracking-wide md:text-2xl lg:text-5xl text-3xl ">
                             Core Service Overview
                         </h1>
                     </div>
                 </div>
                 <article className='flex flex-col pt-10'>
 
-                    <div className='flex flex-row py-10'>
+                    <div className='flex flex-col lg:flex-row py-10'>
 
 
                         <div className='basis-1/2 border-black rounded-[calc(var(--radius-lg)+1px)] '>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Preconstruction</h1>
-                            <p className='pt-2'>Comprehensive initial project analysis, including feasibility studies, design reviews, and budgeting to ensure project alignment with client goals and optimal cost-efficiency. Preconstruction planning also establishes realistic timelines and schedules for seamless execution.</p>
-                            <a href="" > Learn more</a>
+                            <h1 className='text-[#153361] text-xl font-semibold text-balance lg:text-2xl'>Preconstruction</h1>
+                            <p className='pt-2 text-sm/8 lg:text-xl pb-10 '>Comprehensive initial project analysis, including feasibility studies, design reviews, and budgeting to ensure project alignment with client goals and optimal cost-efficiency. Preconstruction planning also establishes realistic timelines and schedules for seamless execution.</p>
                         </div>
 
                         <div className='basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>General Contracting</h1>
-                            <p className='pt-2'>Overseeing all construction aspects, from resource allocation to subcontractor coordination. Our GC services cover all essential functions to keep projects on schedule and within budget, while maintaining strict standards for quality, safety, and regulatory compliance.</p>
+                            <h1 className='text-[#153361] text-xl font-semibold text-balance lg:text-2xl'>General Contracting</h1>
+                            <p className='pt-2 text-sm/8 lg:text-xl pb-10'>Overseeing all construction aspects, from resource allocation to subcontractor coordination. Our GC services cover all essential functions to keep projects on schedule and within budget, while maintaining strict standards for quality, safety, and regulatory compliance.</p>
 
                         </div>
                     </div>
@@ -47,15 +46,15 @@ function Service() {
                         <img src={logo} alt="Company Logo" className="w-30 h-30 rounded-lg justify-center" />
                     </div> */}
 
-                    <div className='flex flex-row py-10'>
+                    <div className='flex flex-col lg:flex-row'>
                         <div className='basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Construction Management</h1>
-                            <p className='pt-2'>On-site management that monitors every stage of the construction process, providing real-time updates and proactive problem-solving to maintain efficiency and mitigate delays. CM services ensure alignment between project objectives, quality standards, and cost control</p>
+                            <h1 className='text-[#153361] text-xl font-semibold text-balance  lg:text-2xl'>Construction Management</h1>
+                            <p className='pt-2 text-sm/8 lg:text-xl pb-10'>On-site management that monitors every stage of the construction process, providing real-time updates and proactive problem-solving to maintain efficiency and mitigate delays. CM services ensure alignment between project objectives, quality standards, and cost control</p>
 
                         </div>
                         <div className='basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Purchasing</h1>
-                            <p className='pt-2'>Expertise in sourcing and procuring high-quality equipment, materials, and specialized technology required for semiconductor facilities. Our procurement service includes vendor selection, quality assurance, and cost management to secure reliable and efficient project resources.</p>
+                            <h1 className='text-[#153361] text-xl font-semibold text-balance lg:text-2xl'>Purchasing</h1>
+                            <p className='pt-2 text-sm/8 lg:text-xl pb-10'>Expertise in sourcing and procuring high-quality equipment, materials, and specialized technology required for semiconductor facilities. Our procurement service includes vendor selection, quality assurance, and cost management to secure reliable and efficient project resources.</p>
 
                         </div>
                     </div>
