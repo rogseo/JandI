@@ -3,7 +3,7 @@ import pic from "../img/3.png"
 import logo from "../img/logo.png"
 function Service() {
     return (
-        <div className="relative isolate px-6 pt-14 lg:px-8 ">
+        <div className="relative isolate pt-14  ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

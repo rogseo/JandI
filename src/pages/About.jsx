@@ -7,7 +7,7 @@ import why from "../img/why.png"
 
 function About() {
     return (
-        <div className="relative isolate px-50 pt-14 lg:px-50 ">
+        <div className="relative isolate px-10 lg:px-50 pt-14 lg:px-50 ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -23,16 +23,16 @@ function About() {
             {/* Our Unique Advantage */}
             <div>
 
-                <div className="mx-auto max-w-2xl sm:pt-48 lg:pt-56 ">
+                <div className="mx-auto max-w-2xl pt-56 ">
                     <div className="text-center">
-                        <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 lg:text-5xl">
+                        <h1 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance lg:text-5xl">
                             Our Unique Advantage
                         </h1>
                     </div>
                 </div>
                 <article className='flex flex-col pt-10'>
-                    <div className='flex lg:flex-row sm:flex-col  py-10'>
-                        <div className='lg:basis-1/2 '>
+                    <div className='flex flex-col lg:flex-row  py-10'>
+                        <div className='lg:basis-1/2'>
                             <img src={pic2} alt="advantage 1" className='basis-1/2'></img>
                         </div>
 
@@ -42,7 +42,7 @@ function About() {
 
                         </div>
                     </div>
-                    <div className='flex lg:flex-row sm:flex-col py-10'>
+                    <div className='flex flex-col lg:flex-row py-10'>
                         <div className='lg:basis-1/2'>
                             <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Agility and Speed</h1>
                             <p className='pt-2'>A small team structure enables rapid decision-making and adaptability, allowing us to respond to challenges and client needs faster than larger firms.</p>
@@ -52,7 +52,7 @@ function About() {
                             <img src={pic1} alt="advantage 2" className='basis-1/2'></img>
                         </div>
                     </div>
-                    <div className='flex lg:flex-row sm:flex-col py-10'>
+                    <div className='flex flex-col lg:flex-row py-10'>
                         <div className='lg:basis-1/2'>
                             <img src={pic3} alt="advantage 3" className='basis-1/2'></img>
                         </div>
@@ -67,9 +67,9 @@ function About() {
             </div>
             {/* Why J&I */}
             <div>
-                <div className="mx-auto max-w-2xl sm:pt-20 lg:pt-30 ">
+                <div className="mx-auto max-w-2xl pt-30 ">
                     <div className="text-center">
-                        <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+                        <h1 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance lg:text-5xl">
                             Why J&I
                         </h1>
                     </div>
