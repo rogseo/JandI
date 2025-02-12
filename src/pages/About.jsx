@@ -7,7 +7,7 @@ import why from "../img/why.png"
 
 function About() {
     return (
-        <div className="relative isolate px-10 lg:px-50 pt-14 lg:px-50 ">
+        <div className="relative isolate pt-14 lg:px-50 ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -25,7 +25,7 @@ function About() {
 
                 <div className="mx-auto max-w-2xl pt-56 ">
                     <div className="text-center">
-                        <h1 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance lg:text-5xl">
+                        <h1 className="text-[#153361] text-xl font-bold tracking-tight text-balance lg:text-5xl">
                             Our Unique Advantage
                         </h1>
                     </div>
@@ -37,14 +37,14 @@ function About() {
                         </div>
 
                         <div className='lg:basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Efficiency and Expertise</h1>
+                            <h1 className=' text-xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Efficiency and Expertise</h1>
                             <p className='pt-2'>More efficient and skilled than typical U.S.-based GCs, CMs in semiconductor construction, leverage specialized experience to deliver optimized results.</p>
 
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row py-10'>
                         <div className='lg:basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Agility and Speed</h1>
+                            <h1 className=' text-xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Agility and Speed</h1>
                             <p className='pt-2'>A small team structure enables rapid decision-making and adaptability, allowing us to respond to challenges and client needs faster than larger firms.</p>
 
                         </div>
@@ -58,7 +58,7 @@ function About() {
                         </div>
 
                         <div className='lg:basis-1/2'>
-                            <h1 className=' text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Global Expertise</h1>
+                            <h1 className=' text-xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl'>Global Expertise</h1>
                             <p className='pt-2'>Combining in-depth South Korean and U.S. semiconductor construction knowledge, we offer a unique perspective that maximizes project outcomes for Korean clients in the U.S.</p>
 
                         </div>
@@ -76,7 +76,7 @@ function About() {
                 </div>
                 <article className='flex flex-col pt-10'>
                     <div className='flex flex-row py-10'>
-                        <img src={why} alt="why J&I" className=''></img>
+                        <img src={why} alt="why J&I" className='w-full h-full'></img>
                     </div>                   
                 </article>
             </div>

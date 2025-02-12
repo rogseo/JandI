@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="relative isolate px-6 pt-14 lg:px-8  ">
+        <div className="relative isolate lg:px-6 pt-14 lg:px-8  ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -36,13 +36,13 @@ function Home() {
                     </div> */}
                 </div>
                 <div>
-                    <h1 className="text-xl  text-[#153361] font-semibold sm:tracking-tight lg:tracking-wide text-balance  pt-10 lg:text-5xl">
+                    <h1 className="text-sm  text-[#153361] font-bold sm:tracking-tight lg:tracking-wide text-balance  pt-10 lg:text-5xl">
                         We Deliver Preconstruction Services
                     </h1>
-                    <h1 className="text-xl text-[#153361] pt-3 font-semibold sm:tracking-tight lg:tracking-wide text-balance lg:text-5xl">
+                    <h1 className="text-sm text-[#153361] pt-3 font-bold sm:tracking-tight lg:tracking-wide text-balance lg:text-5xl">
                         for Realizing Customer Value
                     </h1>
-                    <p className="mt-8 lg:text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 ">
+                    <p className="mt-8 text-sm/8 lg:text-lg font-medium text-pretty text-gray-500 ">
                         Despite our relatively short history, J&I Advanced Construction comprises veterans with over 10 years of experience in semiconductor construction. Notably, our team has nearly a decade of experience specifically in constructing semiconductor plants in the United States, making us experts in this field. Leveraging this extensive experience, we deeply understand the critical importance of the initial stages of construction.
 
                         Our vision is to enable our partners to anticipate and manage potential risks through our services, thereby minimizing those risks and ensuring the achievement of project goals. We aim to support SK hynix in the successful construction of its semiconductor plant in the US by providing thorough planning and execution from the very beginning.

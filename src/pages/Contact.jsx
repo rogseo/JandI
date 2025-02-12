@@ -25,7 +25,7 @@ export default function Contact() {
 
 
     return (
-        <div className="isolate bg-white px-6 pt-5 sm:py-10 lg:px-8">
+        <div className="isolate bg-white px-6 pt-20 sm:py-10 lg:px-8">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -39,8 +39,7 @@ export default function Contact() {
                 />
             </div>
             <div className="mx-auto max-w-2xl text-center sm:pt-48 lg:pt-56 ">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Contact us</h2>
-                <p className="mt-2 text-lg/8 text-gray-600">J&I</p>
+                <h2 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance sm:text-xl">Contact us</h2>
             </div>
             <form action="#" method="POST" 
             onSubmit={handleSubmit} 
