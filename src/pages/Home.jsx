@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="relative isolate lg:px-6 pt-14 lg:px-8  ">
+        <div className="relative isolate px-0 pt-14 lg:px-8  ">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -18,8 +18,8 @@ function Home() {
                 />
             </div>
             <div className=" py-32 sm:py-48 lg:py-56">
-                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                <div className="sm:mb-8 px-10 sm:flex sm:justify-center">
+                    <div className="relative rounded-full px-3 py-1 text-sm/3 lg:text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                         J&I Advanced Construction.{' '}
                         <Link to="/About" className="font-semibold text-indigo-600">
                             <span aria-hidden="true" className="absolute inset-0" />
@@ -28,18 +28,18 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="relative h-full text-end rounded-lg ">
-                    <img src={pic} alt="Company Logo" className="w-full h-full rounded-lg" />
-                    {/* <div className="absolute top-40 sm:top-10 right-5 w-full h-full text-balance text-right rounded-lg">
-                        <h2 className="text-white text-2xl lg:text-5xl font-bold">J&I Advanced Construction</h2>
+                <div className="relative h-full pt-10 text-end ">
+                    <img src={pic} alt="Company Logo" className="w-full h-full object-fill" />
+                    {/* <div className="absolute top-30 sm:top-10 right-10 text-base  text-[#153361] font-bold text-balance ">
+                        <h2 className="text-base  text-white font-bold text-balance">We Deliver Preconstruction Services</h2>
 
                     </div> */}
                 </div>
-                <div>
-                    <h1 className="text-sm  text-[#153361] font-bold sm:tracking-tight lg:tracking-wide text-balance  pt-10 lg:text-5xl">
+                <div className="px-3">
+                    <h1 className="text-base  text-[#153361] font-bold text-balance  pt-10 lg:text-5xl">
                         We Deliver Preconstruction Services
                     </h1>
-                    <h1 className="text-sm text-[#153361] pt-3 font-bold sm:tracking-tight lg:tracking-wide text-balance lg:text-5xl">
+                    <h1 className="text-sm text-[#153361] font-bold text-balance lg:text-5xl">
                         for Realizing Customer Value
                     </h1>
                     <p className="mt-8 text-sm/8 lg:text-lg font-medium text-pretty text-gray-500 ">
