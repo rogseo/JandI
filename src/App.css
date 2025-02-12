@@ -33,6 +33,11 @@
   }
 }
 
+/* @theme {
+  --color-regal-blue : #101828;
+} */
+
+
 .card {
   padding: 2em;
 }
