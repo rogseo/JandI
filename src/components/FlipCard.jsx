@@ -48,7 +48,7 @@ function FlipCard() {
                                 key={service.name}
                                 className="group  h-96 w-96  [perspective:1000px]"
                             >
-                                <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                                <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-active:[transform:rotateY(180deg)] ">
                                     {/* Front face with image */}
                                     <div className="absolute  inset-0 h-full w-full rounded-xl [backface-visibility:hidden]">
                                         <div className="flex min-h-full flex-col items-center justify-center">
