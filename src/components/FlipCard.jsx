@@ -42,7 +42,7 @@ const services = [
         imageUrl:
             "https://images.unsplash.com/photo-1635437536607-b8572f443763?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
-            " Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+            "Expertise in sourcing and procuring high-quality equipment, materials, and specialized technology required for semiconductor facilities. Our procurement service includes vendor selection, quality assurance, and cost management to secure reliable and efficient project resources.",
         icon: purchasing_icon,
     },
 ];
@@ -57,22 +57,21 @@ function FlipCard() {
                         {services.map((service) => (
                             <div
                                 key={service.name}
-                                className="group  h-96 w-96  [perspective:1000px]"
+                                className="group  h-96 w-96 [perspective:1000px]"
                             >
                                 <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-active:[transform:rotateY(180deg)] ">
                                     {/* Front face with image */}
                                     <div className="absolute  inset-0 h-full w-full rounded-xl [backface-visibility:hidden]">
                                         <div className="flex min-h-full flex-col items-center justify-center">
                                             <img src={service.icon} alt="constructor icons" />
-                                            <p className=" md:my-6 text-2xl">{service.name}</p>
-
+                                            <p className=" md:my-6 pt-3 text-3xl text-[#153361] text-bold">{service.name}</p>
 
                                         </div>
 
                                     </div>
                                     {/* Back face with text */}
-                                    <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                        <div className="flex min-h-full flex-col items-center justify-center">
+                                    <div className="absolute  bg-[#153361] inset-0 h-full w-full rounded-xl  px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                        <div className="flex    min-h-full flex-col items-center justify-center">
                                             <h2 className="text-2xl font-bold mb-4">
                                                 {service.name}
                                             </h2>

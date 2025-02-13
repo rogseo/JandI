@@ -31,7 +31,7 @@ function Service() {
                 </div>
                 <FlipCard/>
 
-                <article className='flex flex-col pt-10'>
+                {/* <article className='flex flex-col pt-10'>
 
                     <div className='flex flex-col lg:flex-row py-10'>
 
@@ -47,9 +47,7 @@ function Service() {
 
                         </div>
                     </div>
-                    {/* <div className="flex">
-                        <img src={logo} alt="Company Logo" className="w-30 h-30 rounded-lg justify-center" />
-                    </div> */}
+             
 
                     <div className='flex flex-col lg:flex-row'>
                         <div className='basis-1/2'>
@@ -64,9 +62,7 @@ function Service() {
                         </div>
                     </div>
 
-
-
-                </article>
+                </article> */}
             </div >
 
         </div >
