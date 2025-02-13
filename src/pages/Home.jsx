@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="relative isolate px-0 pt-14 lg:px-8  ">
+        <div className="--font-basic relative isolate px-0 pt-14 lg:px-" >
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -21,7 +21,7 @@ function Home() {
                 <div className="sm:mb-8 px-10 sm:flex sm:justify-center">
                     <div className="relative rounded-full px-3 py-1 text-sm/3 lg:text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                         J&I Advanced Construction.{' '}
-                        <Link to="/About" className="font-semibold text-indigo-600">
+                        <Link to="/About" className="font-semibold text-[#153361]">
                             <span aria-hidden="true" className="absolute inset-0" />
                             Read more <span aria-hidden="true">&rarr;</span>
                         </Link>
