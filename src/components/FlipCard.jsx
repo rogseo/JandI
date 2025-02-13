@@ -1,4 +1,9 @@
 import React from "react";
+import purchasing_icon from "../img/Purchasing.png"
+import generalContruction_icon from "../img/gc.png"
+import management_icon from "../img/management.png"
+import preconstruction_icon from "../img/preconstruction.png"
+
 
 
 const services = [
@@ -9,6 +14,8 @@ const services = [
             "https://images.unsplash.com/photo-1632733711679-529326f6db12?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
             "Comprehensive initial project analysis, including feasibility studies, design reviews, and budgeting to ensure project alignment with client goals and optimal cost-efficiency. Preconstruction planning also establishes realistic timelines and schedules for seamless execution.",
+        icon: preconstruction_icon,
+
     },
     {
         step: "02",
@@ -17,6 +24,7 @@ const services = [
             "https://images.unsplash.com/photo-1687462970787-61d953508926?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
             " Overseeing all construction aspects, from resource allocation to subcontractor coordination. Our GC services cover all essential functions to keep projects on schedule and within budget, while maintaining strict standards for quality, safety, and regulatory compliance.",
+        icon: generalContruction_icon,
     },
     {
         step: "03",
@@ -24,7 +32,9 @@ const services = [
         imageUrl:
             "https://images.unsplash.com/photo-1635437536607-b8572f443763?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
-            " Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+            "On-site management that monitors every stage of the construction process, providing real-time updates and proactive problem-solving to maintain efficiency and mitigate delays. CM services ensure alignment between project objectives, quality standards, and cost control",
+
+        icon: management_icon,
     },
     {
         step: "04",
@@ -33,6 +43,7 @@ const services = [
             "https://images.unsplash.com/photo-1635437536607-b8572f443763?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
             " Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+        icon: purchasing_icon,
     },
 ];
 
@@ -52,7 +63,10 @@ function FlipCard() {
                                     {/* Front face with image */}
                                     <div className="absolute  inset-0 h-full w-full rounded-xl [backface-visibility:hidden]">
                                         <div className="flex min-h-full flex-col items-center justify-center">
+                                            <img src={service.icon} alt="constructor icons" />
                                             <p className=" md:my-6 text-2xl">{service.name}</p>
+
+
                                         </div>
 
                                     </div>
