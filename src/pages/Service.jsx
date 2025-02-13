@@ -1,6 +1,8 @@
 // src/pages/Service.jsx
 import pic from "../img/3.png"
 import logo from "../img/logo.png"
+import FlipCard from "../components/FlipCard";
+
 function Service() {
     return (
         <div className="relative isolate pt-14  ">
@@ -17,6 +19,7 @@ function Service() {
                 />
             </div>
             {/* Our Unique Advantage */}
+            
             <div>
 
                 <div className="mx-auto max-w-2xl pt-50 lg:pt-56 ">
@@ -26,6 +29,8 @@ function Service() {
                         </h1>
                     </div>
                 </div>
+                <FlipCard/>
+
                 <article className='flex flex-col pt-10'>
 
                     <div className='flex flex-col lg:flex-row py-10'>
