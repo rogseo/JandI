@@ -25,7 +25,7 @@ function About() {
 
                 <div className="mx-auto max-w-2xl pt-30 lg:pt-50 ">
                     <div className="text-center">
-                        <h1 className="text-[#153361] text-xl font-bold tracking-tight text-balance lg:text-5xl">
+                        <h1 className="text-[#153361] text-[25px] font-bold tracking-tight text-balance lg:text-5xl">
                             Our Unique Advantage
                         </h1>
                     </div>

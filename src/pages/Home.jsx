@@ -30,16 +30,12 @@ function Home() {
 
                 <div className="relative h-full pt-10 text-end ">
                     <img src={pic} alt="Company Logo" className="w-full h-full object-fill" />
-                    {/* <div className="absolute top-30 sm:top-10 right-10 text-base  text-[#153361] font-bold text-balance ">
-                        <h2 className="text-base  text-white font-bold text-balance">We Deliver Preconstruction Services</h2>
-
-                    </div> */}
                 </div>
                 <div className="px-3">
-                    <h1 className="text-base  text-[#153361] font-bold text-balance  pt-10 lg:text-5xl">
+                    <h1 className="text-[25px]  text-[#153361] font-bold text-balance  pt-10 lg:text-5xl">
                         We Deliver Preconstruction Services
                     </h1>
-                    <h1 className="text-sm text-[#153361] font-bold text-balance lg:text-5xl">
+                    <h1 className="text-[25px] text-[#153361] font-bold text-balance lg:text-5xl">
                         for Realizing Customer Value
                     </h1>
                     <p className="mt-8 text-sm/8 lg:text-lg font-medium text-pretty text-gray-500 ">

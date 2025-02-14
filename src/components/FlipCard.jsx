@@ -50,7 +50,7 @@ const services = [
 
 function FlipCard() {
     return (
-        <section className="py-16 mx-auto sm:py-20">
+        <section className="py-16 mx-auto px-3 pt-10">
             <div className="mx-auto flex justify-center object-center  px-4 py-16  sm:py-24 lg:max-w-7xl ">
                 <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
                     <div className=" mx-auto grid gap-12 space-y-10 md:space-y-0 sm:gap-16 lg:grid-cols-2">

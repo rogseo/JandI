@@ -22,9 +22,9 @@ function Service() {
             
             <div>
 
-                <div className="mx-auto max-w-2xl pt-50 lg:pt-56 ">
+                <div className="mx-auto max-w-2xl pt-30 lg:pt-50">
                     <div className="text-center">
-                        <h1 className="text-[#153361] font-semibold text-balance sm:tracking-tight lg:tracking-wide md:text-2xl lg:text-5xl text-3xl ">
+                        <h1 className="text-[#153361] font-bold text-balance text-[25px] lg:text-5xl ">
                             Core Service Overview
                         </h1>
                     </div>
