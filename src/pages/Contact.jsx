@@ -25,7 +25,7 @@ export default function Contact() {
 
 
     return (
-        <div className="isolate bg-white px-6 pt-20 sm:py-10 lg:px-8">
+        <div className="isolate px-6 pt-14 md:px-30 lg:px-50">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -38,8 +38,8 @@ export default function Contact() {
                     className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-cyan-500 to-blue-500 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
                 />
             </div>
-            <div className="mx-auto max-w-2xl text-center sm:pt-48 lg:pt-56 ">
-                <h2 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance sm:text-xl">Contact us</h2>
+            <div className="mx-auto max-w-2xl text-center  pt-30 lg:pt-50 ">
+                <h1 className="text-[#153361] text-[20px] font-bold tracking-tight text-balance lg:text-5xl">Contact us</h1>
             </div>
             <form action="#" method="POST" 
             onSubmit={handleSubmit} 

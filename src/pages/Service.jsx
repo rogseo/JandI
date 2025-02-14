@@ -24,7 +24,7 @@ function Service() {
 
                 <div className="mx-auto max-w-2xl pt-30 lg:pt-50">
                     <div className="text-center">
-                        <h1 className="text-[#153361] font-bold text-balance text-[25px] lg:text-5xl ">
+                        <h1 className="text-[#153361] font-bold text-balance text-[20px] lg:text-5xl ">
                             Core Service Overview
                         </h1>
                     </div>

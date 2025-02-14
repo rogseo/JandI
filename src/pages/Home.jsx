@@ -32,10 +32,10 @@ function Home() {
                     <img src={pic} alt="Company Logo" className="w-full h-full object-fill" />
                 </div>
                 <div className="px-3">
-                    <h1 className="text-[25px]  text-[#153361] font-bold text-balance  pt-10 lg:text-5xl">
+                    <h1 className="text-[20px]  text-[#153361] font-bold text-balance  pt-10 lg:text-5xl">
                         We Deliver Preconstruction Services
                     </h1>
-                    <h1 className="text-[25px] text-[#153361] font-bold text-balance lg:text-5xl">
+                    <h1 className="text-[20px] text-[#153361] font-bold text-balance lg:text-5xl">
                         for Realizing Customer Value
                     </h1>
                     <p className="mt-8 text-sm/8 lg:text-lg font-medium text-pretty text-gray-500 ">
