@@ -69,7 +69,7 @@ function About() {
             <div>
                 <div className="mx-auto max-w-2xl pt-30 ">
                     <div className="text-center">
-                        <h1 className="text-[#153361] text-3xl font-semibold tracking-tight text-balance lg:text-5xl">
+                        <h1 className="text-[#153361] text-[25px] font-bold tracking-tight text-balance lg:text-5xl">
                             Why J&I
                         </h1>
                     </div>
@@ -77,7 +77,7 @@ function About() {
                 <article className='flex flex-col pt-10'>
                     <div className='flex flex-row py-10'>
                         <img src={why} alt="why J&I" className='w-full h-full'></img>
-                    </div>                   
+                    </div>
                 </article>
             </div>
 
